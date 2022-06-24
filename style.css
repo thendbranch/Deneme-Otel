@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(../Otel/image/back5.jpg);
+    background-image: url(./image/back5.jpg);
     background-repeat: no-repeat;
     background-position:relative;
     background-size:cover;
@@ -830,10 +830,10 @@ body{
 }
 
 @keyframes my {
-    0%   {top: 0px; left: 0px;    background:url(../Otel/image/akdeniz-camp.jpg ) no-repeat ;background-size: cover; }
-    25%   {top: 0px; left: 0px;   background:url(../Otel/image/akdeniz-camp4.jpg) no-repeat ;background-size: cover;}
-    50%   {top: 0px; left: 0px;   background:url(../Otel/image/akdenizcamp5.jpg) no-repeat ;background-size: cover;}
-    100%   {top: 0px; left: 0px;  background:url(../Otel/image/akdeniz-camp6.jpg) no-repeat ;background-size: cover;}
+    0%   {top: 0px; left: 0px;    background:url(./image/akdeniz-camp.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(./image/akdeniz-camp4.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(./image/akdenizcamp5.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(./image/akdeniz-camp6.jpg) no-repeat ;background-size: cover;}
 }
 
 .tatil1 .tfoto1 {
@@ -847,11 +847,11 @@ body{
 }
 
 @keyframes my1 {
-    0%   {top: 0px; left: 0px;    background:url(../Otel/image/altin-kamp-burhaniye.jpg ) no-repeat ;background-size: cover; }
-    25%   {top: 0px; left: 0px;   background:url(../Otel/image/burhaniye-altin-kamp-2-1.jpg) no-repeat ;background-size: cover;}
-    50%   {top: 0px; left: 0px;   background:url(../Otel/image/ALTIN-kamp3.jpg) no-repeat ;background-size: cover;}
-    75%   {top: 0px; left: 0px;   background:url(../Otel/image/altın-kamp4.jpg) no-repeat ;background-size: cover;}
-    100%   {top: 0px; left: 0px;  background:url(../Otel/image/altın-kamp5.jpg) no-repeat ;background-size: cover;}
+    0%   {top: 0px; left: 0px;    background:url(./image/altin-kamp-burhaniye.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(./image/burhaniye-altin-kamp-2-1.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(./image/ALTIN-kamp3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(./image/altın-kamp4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(./image/altın-kamp5.jpg) no-repeat ;background-size: cover;}
 }
 
 .tatil1 .tfoto2 {
@@ -865,11 +865,11 @@ body{
 }
 
 @keyframes my2 {
-    0%   {top: 0px; left: 0px;    background:url(../Otel/image/datca-aktur-mugla-1.jpg ) no-repeat ;background-size: cover; }
-    25%   {top: 0px; left: 0px;   background:url(../Otel/image/AKTUR-ÇADIR2.jpg) no-repeat ;background-size: cover;}
-    50%   {top: 0px; left: 0px;   background:url(../Otel/image/AKTUR-ÇADIR3.jpg) no-repeat ;background-size: cover;}
-    75%   {top: 0px; left: 0px;   background:url(../Otel/image/aktur4.jpg) no-repeat ;background-size: cover;}
-    100%   {top: 0px; left: 0px;  background:url(../Otel/image/aktur5.jpg) no-repeat ;background-size: cover;}
+    0%   {top: 0px; left: 0px;    background:url(./image/datca-aktur-mugla-1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(./image/AKTUR-ÇADIR2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(./image/AKTUR-ÇADIR3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(./image/aktur4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(./image/aktur5.jpg) no-repeat ;background-size: cover;}
 }
 
 .cerceve h2 {
@@ -904,11 +904,11 @@ body{
 }
 
 @keyframes my3 {
-    0%   {top: 0px; left: 0px;    background:url(../Otel/image/Kamp-Alanı-Çubucak1.jpg ) no-repeat ;background-size: cover; }
-    25%   {top: 0px; left: 0px;   background:url(../Otel/image/cubucak2.jpg) no-repeat ;background-size: cover;}
-    50%   {top: 0px; left: 0px;   background:url(../Otel/image/cubucak3.jpg) no-repeat ;background-size: cover;}
-    75%   {top: 0px; left: 0px;   background:url(../Otel/image/cubucak4.jpg) no-repeat ;background-size: cover;}
-    100%   {top: 0px; left: 0px;  background:url(../Otel/image/cubucak5.jpg) no-repeat ;background-size: cover;}
+    0%   {top: 0px; left: 0px;    background:url(./image/Kamp-Alanı-Çubucak1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(./image/cubucak2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(./image/cubucak3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(./image/cubucak4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(./image/cubucak5.jpg) no-repeat ;background-size: cover;}
 }
 
 .agac p {
@@ -928,11 +928,11 @@ body{
 }
 
 @keyframes mya1 {
-    0%   {top: 0px; left: 0px;    background:url(../Otel/image/HIZIR1.jpg ) no-repeat ;background-size: cover; }
-    25%   {top: 0px; left: 0px;   background:url(../Otel/image/HIZIR2.jpg) no-repeat ;background-size: cover;}
-    50%   {top: 0px; left: 0px;   background:url(../Otel/image/HIZIR3.jpg) no-repeat ;background-size: cover;}
-    75%   {top: 0px; left: 0px;   background:url(../Otel/image/HIZIR4.jpg) no-repeat ;background-size: cover;}
-    100%   {top: 0px; left: 0px;  background:url(../Otel/image/HIZIR5.jpg) no-repeat ;background-size: cover;}
+    0%   {top: 0px; left: 0px;    background:url(./image/HIZIR1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(./image/HIZIR2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(./image/HIZIR3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(./image/HIZIR4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(./image/HIZIR5.jpg) no-repeat ;background-size: cover;}
 }
 
 .afoto2 {
@@ -946,11 +946,11 @@ body{
 }
 
 @keyframes mya2 {
-    0%   {top: 0px; left: 0px;    background:url(../Otel/image/BABAKAMP1.jpg ) no-repeat ;background-size: cover; }
-    25%   {top: 0px; left: 0px;   background:url(../Otel/image/BABAKAMP2.jpg) no-repeat ;background-size: cover;}
-    50%   {top: 0px; left: 0px;   background:url(../Otel/image/BABAKAMP3.jpg) no-repeat ;background-size: cover;}
-    75%   {top: 0px; left: 0px;   background:url(../Otel/image/BABAKAMP4.jpg) no-repeat ;background-size: cover;}
-    100%   {top: 0px; left: 0px;  background:url(../Otel/image/BABAKAMP5.jpg) no-repeat ;background-size: cover;}
+    0%   {top: 0px; left: 0px;    background:url(./image/BABAKAMP1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(./image/BABAKAMP2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(./image/BABAKAMP3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(./image/BABAKAMP4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(./image/BABAKAMP5.jpg) no-repeat ;background-size: cover;}
 }
 
 .afoto3 {
@@ -964,11 +964,11 @@ body{
 }
 
 @keyframes mya3 {
-    0%   {top: 0px; left: 0px;    background:url(../Otel/image/BAŞKONUŞ1.jpg ) no-repeat ;background-size: cover; }
-    25%   {top: 0px; left: 0px;   background:url(../Otel/image/BAŞKONUŞ2.jpg) no-repeat ;background-size: cover;}
-    50%   {top: 0px; left: 0px;   background:url(../Otel/image/BAŞKONUŞ3.jpg) no-repeat ;background-size: cover;}
-    75%   {top: 0px; left: 0px;   background:url(../Otel/image/BAŞKONUŞ4.jpg) no-repeat ;background-size: cover;}
-    100%   {top: 0px; left: 0px;  background:url(../Otel/image/BAŞKONUŞ5.jpg) no-repeat ;background-size: cover;}
+    0%   {top: 0px; left: 0px;    background:url(./image/BAŞKONUŞ1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(./image/BAŞKONUŞ2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(./image/BAŞKONUŞ3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(./image/BAŞKONUŞ4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(./image/BAŞKONUŞ5.jpg) no-repeat ;background-size: cover;}
 }
 
 .afoto4 {
@@ -982,11 +982,11 @@ body{
 }
 
 @keyframes mya4 {
-    0%   {top: 0px; left: 0px;    background:url(../Otel/image/YEDİGÖLLER1.jpg ) no-repeat ;background-size: cover; }
-    25%   {top: 0px; left: 0px;   background:url(../Otel/image/YEDİGÖLLER2.jpg) no-repeat ;background-size: cover;}
-    50%   {top: 0px; left: 0px;   background:url(../Otel/image/YEDİGÖLLER3.jpg) no-repeat ;background-size: cover;}
-    75%   {top: 0px; left: 0px;   background:url(../Otel/image/YEDİGÖLLER4.jpg) no-repeat ;background-size: cover;}
-    100%   {top: 0px; left: 0px;  background:url(../Otel/image/YEDİGÖLLER5.jpg) no-repeat ;background-size: cover;}
+    0%   {top: 0px; left: 0px;    background:url(./image/YEDİGÖLLER1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(./image/YEDİGÖLLER2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(./image/YEDİGÖLLER3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(./image/YEDİGÖLLER4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(./image/YEDİGÖLLER5.jpg) no-repeat ;background-size: cover;}
 }
 
 
@@ -1002,11 +1002,11 @@ body{
 }
 
 @keyframes myg1 {
-    0%   {top: 0px; left: 0px;    background:url(../Otel/image/del1.jpg ) no-repeat ;background-size: cover; }
-    25%   {top: 0px; left: 0px;   background:url(../Otel/image/del2.jpg) no-repeat ;background-size: cover;}
-    50%   {top: 0px; left: 0px;   background:url(../Otel/image/del3.jpg) no-repeat ;background-size: cover;}
-    75%   {top: 0px; left: 0px;   background:url(../Otel/image/del4.jpg) no-repeat ;background-size: cover;}
-    100%   {top: 0px; left: 0px;  background:url(../Otel/image/del5.jpg) no-repeat ;background-size: cover;}
+    0%   {top: 0px; left: 0px;    background:url(./image/del1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(./image/del2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(./image/del3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(./image/del4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(./image/del5.jpg) no-repeat ;background-size: cover;}
 }
 
 
@@ -1021,11 +1021,11 @@ body{
 }
 
 @keyframes myg2 {
-    0%   {top: 0px; left: 0px;    background:url(../Otel/image/kbk1.jpg ) no-repeat ;background-size: cover; }
-    25%   {top: 0px; left: 0px;   background:url(../Otel/image/kbk2.jpg) no-repeat ;background-size: cover;}
-    50%   {top: 0px; left: 0px;   background:url(../Otel/image/kbk3.jpg) no-repeat ;background-size: cover;}
-    75%   {top: 0px; left: 0px;   background:url(../Otel/image/kbk4.jpg) no-repeat ;background-size: cover;}
-    100%   {top: 0px; left: 0px;  background:url(../Otel/image/kbk5.jpg) no-repeat ;background-size: cover;}
+    0%   {top: 0px; left: 0px;    background:url(./image/kbk1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(./image/kbk2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(./image/kbk3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(./image/kbk4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(./image/kbk5.jpg) no-repeat ;background-size: cover;}
 }
 
 .gfoto3 {
@@ -1039,11 +1039,11 @@ body{
 }
 
 @keyframes myg3 {
-    0%   {top: 0px; left: 0px;    background:url(../Otel/image/boy1.jpg ) no-repeat ;background-size: cover; }
-    25%   {top: 0px; left: 0px;   background:url(../Otel/image/boy2.jpg) no-repeat ;background-size: cover;}
-    50%   {top: 0px; left: 0px;   background:url(../Otel/image/boy3.jpg) no-repeat ;background-size: cover;}
-    75%   {top: 0px; left: 0px;   background:url(../Otel/image/boy4.jpg) no-repeat ;background-size: cover;}
-    100%   {top: 0px; left: 0px;  background:url(../Otel/image/boy5.jpg) no-repeat ;background-size: cover;}
+    0%   {top: 0px; left: 0px;    background:url(./image/boy1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(./image/boy2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(./image/boy3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(./image/boy4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(./image/boy5.jpg) no-repeat ;background-size: cover;}
 }
 
 .gfoto4 {
@@ -1057,11 +1057,11 @@ body{
 }
 
 @keyframes myg4 {
-    0%   {top: 0px; left: 0px;    background:url(../Otel/image/p1.jpg ) no-repeat ;background-size: cover; }
-    25%   {top: 0px; left: 0px;   background:url(../Otel/image/p2.jpg) no-repeat ;background-size: cover;}
-    50%   {top: 0px; left: 0px;   background:url(../Otel/image/p3.jpg) no-repeat ;background-size: cover;}
-    75%   {top: 0px; left: 0px;   background:url(../Otel/image/p4.jpg) no-repeat ;background-size: cover;}
-    100%   {top: 0px; left: 0px;  background:url(../Otel/image/p5.jpg) no-repeat ;background-size: cover;}
+    0%   {top: 0px; left: 0px;    background:url(./image/p1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(./image/p2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(./image/p3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(./image/p4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(./image/p5.jpg) no-repeat ;background-size: cover;}
 }
 
 .gfoto5 {
@@ -1075,11 +1075,11 @@ body{
 }
 
 @keyframes myg5 {
-    0%   {top: 0px; left: 0px;    background:url(../Otel/image/h1.jpg ) no-repeat ;background-size: cover; }
-    25%   {top: 0px; left: 0px;   background:url(../Otel/image/h2.jpg) no-repeat ;background-size: cover;}
-    50%   {top: 0px; left: 0px;   background:url(../Otel/image/h3.jpg) no-repeat ;background-size: cover;}
-    75%   {top: 0px; left: 0px;   background:url(../Otel/image/h4.jpg) no-repeat ;background-size: cover;}
-    100%   {top: 0px; left: 0px;  background:url(../Otel/image/h5.jpg) no-repeat ;background-size: cover;}
+    0%   {top: 0px; left: 0px;    background:url(./image/h1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(./image/h2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(./image/h3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(./image/h4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(./image/h5.jpg) no-repeat ;background-size: cover;}
 }
 
 .gizlik p {
