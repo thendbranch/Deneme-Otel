@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Otel/image/back5.jpg);
+    background-repeat: no-repeat;
+    background-position:relative;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.header{
+    display: flex;
+    border-bottom: 2px solid #F55536;
+    border-radius: 10px;
+    height: 80px;
+    background-color: #FFB238;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 40%;
+    float: left;
+    display:inline-flex;
+}
+#logo{
+    border: 10px solid #F19143;
+    border-radius: 10px;
+    
+}
+.logo h1{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    margin-left: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+.logo p{
+    margin-left: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10 px;
+    margin-top: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu{
+    width: 55%; 
+}
+
+.menu ul{
+    display: flex;
+    float: right;
+}
+
+
+.menu ul li{
+    display: flex;
+    color: #023047;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+.menu ul li a:hover{
+    color: #F55536;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid #FFB238;
+    border-radius: 3px;
+    background-color: #023047;
+}
+
+.container {
+    display: flex;
+}
+
+.openmenu {
+    width: 155px;
+    height: 180px;
+    margin: 125px 0 0 20px;
+    
+}
+
+.openmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.openmenu li{
+    position: relative;
+}
+
+.openmenu ul li a {
+    display: block;
+    width: 150px;
+    padding: 9px 5px;
+    background-color: #023047;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border:2px solid #F55536;
+}
+
+.openmenu ul li a:hover{
+    color: #023047;
+    background-color: white;
+}
+
+.openmenu ul li ul {
+    display: none;
+    position: absolute;
+    left: 150px;
+    top: 0;
+}
+
+.openmenu ul li:hover ul {
+    display: block;
+}
+
+
+.content {
+    margin-left: 10%;
+    width: 70%;
+    
+}
+
+.content h1{
+    border:2px solid #F55536;
+    color: #023047;
+    background-color: #fff;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    opacity: 0.7;
+    margin: 10px 10% 0 10%;
+    font-size: 41px;
+}
+
+.content h1+p{
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-right: dashed #F55536;
+    border-bottom: dashed #F55536;
+    font-size: 21px;
+    text-align: right;
+    background-color: #FFB238;
+    margin-top: 60px;
+    padding: 5px 5px 5px 0;
+    margin-bottom: 10px;
+    
+}
+
+.content p a {
+    color: white;
+}
+
+.content p a:hover {
+    color: #F55536
+}
+
+.galeri {
+    
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border: 1px solid #023047;
+}
+
+.galeri h2 {
+    background-color: #023047;
+    color: white;
+    padding: 0.5px;
+    text-align: center;
+}
+.galeri h2.ffooter {
+    background-color: #F19143;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.sahil {
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeri .sahil .foto {
+    border: solid 1px;
+    min-width: 200px;
+    min-height: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.galeri .sahil .foto img{
+    position: absolute;
+    max-width: 100%;
+    height: 100%;
+}
+
+.galeri .sahil .foto p{
+    position: absolute;
+    background-color: rgba(0, 0, 0,.5);
+    color: white;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    height: 20%;
+    top: 100%;
+    transition: all 2ms ease-in-out;
+}
+
+.galeri .sahil .foto:hover p {
+    top: 80%;
+}
+
+.galeri .sahil .foto:hover img {
+    transform: scale(2);
+}
+

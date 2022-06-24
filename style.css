@@ -1,0 +1,1089 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Otel/image/back5.jpg);
+    background-repeat: no-repeat;
+    background-position:relative;
+    background-size:cover;
+}
+.header{
+    display: flex;
+    border-bottom: 2px solid #F55536;
+    border-radius: 10px;
+    height: 80px;
+    background-color: #FFB238;
+    width: 100%;
+    
+}
+.logo{
+    width: 40%;
+    float: left;
+    display:inline-flex;
+}
+#logo{
+    border: 10px solid #F19143;
+    border-radius: 10px;
+    
+}
+.logo h1{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    margin-left: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+.logo p{
+    margin-left: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10 px;
+    margin-top: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+.menu{
+    width: 55%; 
+}
+
+.menu ul{
+    display: flex;
+    float: right;
+}
+
+
+.menu ul li{
+    display: flex;
+    color: #023047;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+.menu ul li a:hover{
+    color: #F55536;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid #FFB238;
+    border-radius: 3px;
+    background-color: #023047;
+}
+/* Container*/
+
+.container{
+    display: flex;
+    width: 100%;
+}
+.sidebar{
+    border: 2px solid #023047;
+    background-color: #cbf3f0;
+    margin: 30px;
+    text-align: center;
+    width: 20%;
+    opacity: 0.8;
+    height: 350px;
+}
+.sidebar:hover {
+    opacity: 1;
+}
+
+.sidebar h2{
+    color: #f08080  ;
+    font-weight: bold;
+    border-bottom: 1px solid #F55536;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.sidebar a {
+    border-bottom:1px solid #F55536;
+    font-size: 18;
+    letter-spacing: 1px;
+}
+.sidebar a:hover{
+    font-family: 'Times New Roman', Times, serif;
+    color: #f08080;
+    background-color: #023047;
+    font-size: 20px; 
+}
+
+.sidebar ul li {
+    margin-bottom: 3px;
+    width: auto;
+}
+
+/* main kısmı */
+.main{
+    width: 60%;
+    height: 600px;
+    background-color: #cbf3f0;
+    border: 2px solid #023047;
+    margin: 30px;
+    opacity: 0.8;
+    overflow-y  : scroll;
+}
+
+.main h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #F55536;
+    margin: 15px;
+    letter-spacing: 3px;
+}
+
+.main h1::selection{
+    font-weight: bold;
+    color: black;
+    background-color: #f08080;
+}
+
+.main p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.main p::selection{
+    font-weight: bold;
+    color: black;
+    background-color: #f08080;
+}
+
+.main h3{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+.main h3::selection{
+    font-weight: bold;
+    color: black;
+    background-color: #f08080;
+}
+
+.main ul{
+    margin-top: 15px;
+}
+.main li {
+    list-style-type: disc;
+    margin-left: 350px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/*Turler*/
+.headeru {
+    background-color: #023047;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.headeru ul {
+    display: inline-flex;
+    text-align: center;
+}
+
+.headeru ul li {
+    margin: 5px;
+    padding-right: 10px;
+    list-style-type: none !important;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.headeru ul li a{
+   color: #fff;
+   font-weight: bold;
+}
+
+.headeru ul li a:hover{
+    color: #f08080;
+    font-weight: bold;
+    font-size: 21px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+ }
+
+ #tren  li {
+    margin-left: 100px !important;
+ }
+
+ #vp  li {
+    margin-left: 100px !important;
+ }
+
+
+/*-------OTELLER--------*/
+.headerysm {
+    background-color: #023047;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.headerysm ul {
+    display: inline-flex;
+    
+}
+
+.headerysm ul li {
+    margin: 5px;
+    padding-right: 5px;
+    list-style-type: none !important;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.headerysm ul li a{
+   color: #fff;
+   font-weight: bold;
+   
+}
+
+.headerysm ul li a:hover{
+    color: #f08080;
+    font-weight: bold;
+    font-size: 21px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+ }
+/*MAİN*/
+.mainysm {
+    margin-left: 170px;
+    width: 600px;
+    max-height: 480px;
+    overflow-y: scroll;
+    border: 3px dashed #F55536;
+}
+
+.box1{
+    width: 550px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid #023047;
+    margin: 10px;
+    background-color: aliceblue;
+    display: flex;
+    
+    
+}
+
+.box1 img {
+    width: 180px;
+    height: 150px;
+    border: 0.5px dashed #f08080;
+    margin: 2px;
+}
+.box1 .ozel h4{
+    margin: 2px;
+    font-size: 20px;
+    color: #F55536;
+    border-bottom: 1px dashed #023047;
+}
+.box1 ul li{
+    margin: 20px !important;
+    font-size: 15px;
+}
+/*----------------------------------------------*/
+ .box2{
+    width: 550px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid #023047;
+    margin: 10px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.box2 img {
+    width: 180px;
+    height: 150px;
+    border: 0.5px dashed #f08080;
+    margin: 2px;
+}
+.box2 .ozel h4{
+    margin: 2px;
+    font-size: 20px;
+    color: #F55536;
+    border-bottom: 1px dashed #023047;
+}
+.box2 ul li{
+    margin: 20px !important;
+    font-size: 15px;
+}
+/*----------------------------------------------*/
+.box3{
+    width: 550px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid #023047;
+    margin: 10px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.box3 img {
+    width: 180px;
+    height: 150px;
+    border: 0.5px dashed #f08080;
+    margin: 2px;
+}
+.box3 .ozel h4{
+    margin: 2px;
+    font-size: 20px;
+    color: #F55536;
+    border-bottom: 1px dashed #023047;
+}
+.box3 ul li{
+    margin: 20px !important;
+    font-size: 15px;
+}
+/*----------------------------------------------*/
+.box4{
+    width: 550px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid #023047;
+    margin: 10px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.box4 img {
+    width: 180px;
+    height: 150px;
+    border: 0.5px dashed #f08080;
+    margin: 2px;
+}
+.box4 .ozel h4{
+    margin: 2px;
+    font-size: 20px;
+    color: #F55536;
+    border-bottom: 1px dashed #023047;
+}
+.box4 ul li{
+    margin: 20px !important;
+    font-size: 15px;
+}
+/*----------------------------------------------*/
+.box5{
+    width: 550px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid #023047;
+    margin: 10px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.box5 img {
+    width: 180px;
+    height: 150px;
+    border: 0.5px dashed #f08080;
+    margin: 2px;
+}
+.box5 .ozel h4{
+    margin: 2px;
+    font-size: 20px;
+    color: #F55536;
+    border-bottom: 1px dashed #023047;
+}
+.box5 ul li{
+    margin: 20px !important;
+    font-size: 15px;
+}
+/*----------------------------------------------*/
+.box6{
+    width: 550px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid #023047;
+    margin: 10px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.box6 img {
+    width: 180px;
+    height: 150px;
+    border: 0.5px dashed #f08080;
+    margin: 2px;
+}
+.box6 .ozel h4{
+    margin: 2px;
+    font-size: 20px;
+    color: #F55536;
+    border-bottom: 1px dashed #023047;
+}
+.box6 ul li{
+    margin: 20px !important;
+    font-size: 15px;
+}
+/*----------------------------------------------*/
+.box7{
+    width: 550px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid #023047;
+    margin: 10px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.box7 img {
+    width: 180px;
+    height: 150px;
+    border: 0.5px dashed #f08080;
+    margin: 2px;
+}
+.box7 .ozel h4{
+    margin: 2px;
+    font-size: 20px;
+    color: #F55536;
+    border-bottom: 1px dashed #023047;
+}
+.box7 ul li{
+    margin: 20px !important;
+    font-size: 15px;
+}
+/*----------------------------------------------*/
+.box8{
+    width: 550px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid #023047;
+    margin: 10px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.box8 img {
+    width: 180px;
+    height: 150px;
+    border: 0.5px dashed #f08080;
+    margin: 2px;
+}
+.box8 .ozel h4{
+    margin: 2px;
+    font-size: 20px;
+    color: #F55536;
+    border-bottom: 1px dashed #023047;
+}
+.box8 ul li{
+    margin: 20px !important;
+    font-size: 15px;
+}
+/*----------------------------------------------*/
+.box9{
+    width: 550px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid #023047;
+    margin: 10px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.box9 img {
+    width: 180px;
+    height: 150px;
+    border: 0.5px dashed #f08080;
+    margin: 2px;
+}
+.box9 .ozel h4{
+    margin: 2px;
+    font-size: 20px;
+    color: #F55536;
+    border-bottom: 1px dashed #023047;
+}
+.box9 ul li{
+    margin: 20px !important;
+    font-size: 15px;
+}
+/*----------------------------------------------*/
+.box10{
+    width: 550px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid #023047;
+    margin: 10px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.box10 img {
+    width: 180px;
+    height: 150px;
+    border: 0.5px dashed #f08080;
+    margin: 2px;
+}
+.box10 .ozel h4{
+    margin: 2px;
+    font-size: 20px;
+    color: #F55536;
+    border-bottom: 1px dashed #023047;
+}
+.box10 ul li{
+    margin: 20px !important;
+    font-size: 15px;
+}
+/*----------------------------------------------*/
+
+
+/*5 yıldız oteller*/
+
+.headerb {
+    background-color: #023047;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.headerb ul {
+    display: inline-flex;
+    
+}
+
+.headerb ul li {
+    margin: 5px;
+    padding-right: 5px;
+    list-style-type: none !important;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.headerb ul li a{
+   color: #fff;
+   font-weight: bold;
+   
+}
+
+.headerb ul li a:hover{
+    color: #f08080;
+    font-weight: bold;
+    font-size: 21px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+ }
+
+ .mainb {
+    margin-left: 170px;
+    width: 600px;
+    max-height: 480px;
+    overflow-y: scroll;
+    border: 3px dashed #F55536;
+}
+
+/* yarım pansiyon */
+
+.headery {
+    background-color: #023047;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.headery ul {
+    display: inline-flex;
+    
+}
+
+.headery ul li {
+    margin: 5px;
+    padding-right: 5px;
+    list-style-type: none !important;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.headery ul li a{
+   color: #fff;
+   font-weight: bold;
+   
+}
+
+.headery ul li a:hover{
+    color: #f08080;
+    font-weight: bold;
+    font-size: 21px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+ }
+
+ .mainy {
+    margin-left: 170px;
+    max-width: 600px;
+    max-height: 530px;
+    overflow-y: scroll;
+    border: 3px dashed #F55536;
+    
+}
+
+/* kutuları oluşturma */
+
+.disf{
+    display: flex;
+}
+
+.kutu1 {
+    width: 260px;
+    height: 250px;
+    border: 2px  #F55536;
+    border-style: double;
+    border-width: 2px;
+    margin: 10px;
+    background-color: #fff;
+}
+.kutu1 .bas{
+    color: #F55536;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid #023047;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.kutu1 img {
+    width:250px;
+    height: 210px;
+    position: relative;
+    margin-left: 3.2px;
+}
+
+
+.kutu2 {
+    width: 260px;
+    height: 250px;
+    border: 2px  #F55536;
+    border-style: double;
+    border-width: 2px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.kutu2 .bas{
+    color: #F55536;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid #023047;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.kutu2 img {
+    width:250px;
+    height: 210px;
+    position: relative;
+    margin-left: 3.2px;
+}
+
+.kutu3 {
+    width: 260px;
+    height: 250px;
+    border: 2px  #F55536;
+    border-style: double;
+    border-width: 2px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.kutu3 .bas{
+    color: #F55536;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid #023047;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.kutu3 img {
+    width:250px;
+    height: 210px;
+    position: relative;
+    margin-left: 3.2px;
+}
+
+.kutu4 {
+    width: 260px;
+    height: 250px;
+    border: 2px  #F55536;
+    border-style: double;
+    border-width: 2px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.kutu4 .bas{
+    color: #F55536;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid #023047;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.kutu4 img {
+    width:250px;
+    height: 210px;
+    position: relative;
+    margin-left: 3.2px;
+}
+
+/* kamp alanları*/
+
+.headerk {
+    background-color: #023047;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.headerk ul {
+    display: inline-flex;
+    
+}
+
+.headerk ul li {
+    margin: 5px;
+    padding-right: 5px;
+    list-style-type: none !important;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.headerk ul li a{
+   color: #fff;
+   font-weight: bold;
+   
+}
+
+.headerk ul li a:hover{
+    color: #f08080;
+    font-weight: bold;
+    font-size: 21px;
+    border: 2px solid #fff;
+    border-radius: 7px;
+ }
+
+ .maink {
+    display: flex;
+
+ }
+ .cerceve {
+    margin-left: 40px;
+    max-width: 600px;
+    max-height: 530px;
+    overflow-y: scroll;
+    border: 3px solid #023047;
+ }
+/*sidebar*/
+.left {
+    min-width: 200px;
+    height: 170px;
+    border: 2px #F55536;
+    border-style: ridge;
+    margin: 10px;
+    background-color:#fff;
+}
+
+.left ul li{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    list-style-type: none;
+}
+
+.left a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #023047;
+    margin: 12px;
+    font-size: 24px;
+}
+
+.left input{
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+
+.tatil1 .tfoto {
+    border: 2px solid #023047;
+    margin-left: 45px;
+    width: 500px;
+    height: 280px;
+    padding: 2px;
+    background-color: #F55536;
+    animation: my 20s infinite;
+    
+}
+
+@keyframes my {
+    0%   {top: 0px; left: 0px;    background:url(../Otel/image/akdeniz-camp.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(../Otel/image/akdeniz-camp4.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(../Otel/image/akdenizcamp5.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(../Otel/image/akdeniz-camp6.jpg) no-repeat ;background-size: cover;}
+}
+
+.tatil1 .tfoto1 {
+    border: 2px solid #023047;
+    margin-left: 45px;
+    width: 500px;
+    height: 280px;
+    padding: 2px;
+    background-color: #F55536;
+    animation: my1 20s infinite;
+}
+
+@keyframes my1 {
+    0%   {top: 0px; left: 0px;    background:url(../Otel/image/altin-kamp-burhaniye.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(../Otel/image/burhaniye-altin-kamp-2-1.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(../Otel/image/ALTIN-kamp3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(../Otel/image/altın-kamp4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(../Otel/image/altın-kamp5.jpg) no-repeat ;background-size: cover;}
+}
+
+.tatil1 .tfoto2 {
+    border: 2px solid #023047;
+    margin-left: 45px;
+    width: 500px;
+    height: 280px;
+    padding: 2px;
+    background-color: #F55536;
+    animation: my2 20s infinite;
+}
+
+@keyframes my2 {
+    0%   {top: 0px; left: 0px;    background:url(../Otel/image/datca-aktur-mugla-1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(../Otel/image/AKTUR-ÇADIR2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(../Otel/image/AKTUR-ÇADIR3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(../Otel/image/aktur4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(../Otel/image/aktur5.jpg) no-repeat ;background-size: cover;}
+}
+
+.cerceve h2 {
+    margin: 4px;
+    text-align: center;
+    color: #F55536;
+    border-bottom:2px solid #023047;
+    border-top:2px solid #023047;
+    background-color: #fff;
+}
+
+.cerceve h1 {
+    border-bottom:2px solid #023047;
+    border-top:2px solid #023047;
+    background-color: #fff;
+}
+
+.tatil1 p {
+    margin: 3px;
+    margin-top: 5px;
+    background-color: rgb(255, 250, 250);
+}
+
+.tatil1 .tfoto3 {
+    border: 2px solid #023047;
+    margin-left: 45px;
+    width: 500px;
+    height: 280px;
+    padding: 2px;
+    background-color: #F55536;
+    animation: my3 20s infinite;
+}
+
+@keyframes my3 {
+    0%   {top: 0px; left: 0px;    background:url(../Otel/image/Kamp-Alanı-Çubucak1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(../Otel/image/cubucak2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(../Otel/image/cubucak3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(../Otel/image/cubucak4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(../Otel/image/cubucak5.jpg) no-repeat ;background-size: cover;}
+}
+
+.agac p {
+    background-color: #fff;
+    margin: 3px;
+    margin-top: 5px;
+}
+
+.afoto1 {
+    border: 2px solid #023047;
+    margin-left: 45px;
+    width: 500px;
+    height: 280px;
+    padding: 2px;
+    background-color: #F55536;
+    animation: mya1 20s infinite;
+}
+
+@keyframes mya1 {
+    0%   {top: 0px; left: 0px;    background:url(../Otel/image/HIZIR1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(../Otel/image/HIZIR2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(../Otel/image/HIZIR3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(../Otel/image/HIZIR4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(../Otel/image/HIZIR5.jpg) no-repeat ;background-size: cover;}
+}
+
+.afoto2 {
+    border: 2px solid #023047;
+    margin-left: 45px;
+    width: 500px;
+    height: 280px;
+    padding: 2px;
+    background-color: #F55536;
+    animation: mya2 20s infinite;
+}
+
+@keyframes mya2 {
+    0%   {top: 0px; left: 0px;    background:url(../Otel/image/BABAKAMP1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(../Otel/image/BABAKAMP2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(../Otel/image/BABAKAMP3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(../Otel/image/BABAKAMP4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(../Otel/image/BABAKAMP5.jpg) no-repeat ;background-size: cover;}
+}
+
+.afoto3 {
+    border: 2px solid #023047;
+    margin-left: 45px;
+    width: 500px;
+    height: 280px;
+    padding: 2px;
+    background-color: #F55536;
+    animation: mya3 20s infinite;
+}
+
+@keyframes mya3 {
+    0%   {top: 0px; left: 0px;    background:url(../Otel/image/BAŞKONUŞ1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(../Otel/image/BAŞKONUŞ2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(../Otel/image/BAŞKONUŞ3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(../Otel/image/BAŞKONUŞ4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(../Otel/image/BAŞKONUŞ5.jpg) no-repeat ;background-size: cover;}
+}
+
+.afoto4 {
+    border: 2px solid #023047;
+    margin-left: 45px;
+    width: 500px;
+    height: 280px;
+    padding: 2px;
+    background-color: #F55536;
+    animation: mya4 20s infinite;
+}
+
+@keyframes mya4 {
+    0%   {top: 0px; left: 0px;    background:url(../Otel/image/YEDİGÖLLER1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(../Otel/image/YEDİGÖLLER2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(../Otel/image/YEDİGÖLLER3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(../Otel/image/YEDİGÖLLER4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(../Otel/image/YEDİGÖLLER5.jpg) no-repeat ;background-size: cover;}
+}
+
+
+
+.gfoto1 {
+    border: 2px solid #023047;
+    margin-left: 45px;
+    width: 500px;
+    height: 280px;
+    padding: 2px;
+    background-color: #F55536;
+    animation: myg1 20s infinite;
+}
+
+@keyframes myg1 {
+    0%   {top: 0px; left: 0px;    background:url(../Otel/image/del1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(../Otel/image/del2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(../Otel/image/del3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(../Otel/image/del4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(../Otel/image/del5.jpg) no-repeat ;background-size: cover;}
+}
+
+
+.gfoto2 {
+    border: 2px solid #023047;
+    margin-left: 45px;
+    width: 500px;
+    height: 280px;
+    padding: 2px;
+    background-color: #F55536;
+    animation: myg2 20s infinite;
+}
+
+@keyframes myg2 {
+    0%   {top: 0px; left: 0px;    background:url(../Otel/image/kbk1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(../Otel/image/kbk2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(../Otel/image/kbk3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(../Otel/image/kbk4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(../Otel/image/kbk5.jpg) no-repeat ;background-size: cover;}
+}
+
+.gfoto3 {
+    border: 2px solid #023047;
+    margin-left: 45px;
+    width: 500px;
+    height: 280px;
+    padding: 2px;
+    background-color: #F55536;
+    animation: myg3 20s infinite;
+}
+
+@keyframes myg3 {
+    0%   {top: 0px; left: 0px;    background:url(../Otel/image/boy1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(../Otel/image/boy2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(../Otel/image/boy3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(../Otel/image/boy4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(../Otel/image/boy5.jpg) no-repeat ;background-size: cover;}
+}
+
+.gfoto4 {
+    border: 2px solid #023047;
+    margin-left: 45px;
+    width: 500px;
+    height: 280px;
+    padding: 2px;
+    background-color: #F55536;
+    animation: myg4 20s infinite;
+}
+
+@keyframes myg4 {
+    0%   {top: 0px; left: 0px;    background:url(../Otel/image/p1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(../Otel/image/p2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(../Otel/image/p3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(../Otel/image/p4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(../Otel/image/p5.jpg) no-repeat ;background-size: cover;}
+}
+
+.gfoto5 {
+    border: 2px solid #023047;
+    margin-left: 45px;
+    width: 500px;
+    height: 280px;
+    padding: 2px;
+    background-color: #F55536;
+    animation: myg5 20s infinite;
+}
+
+@keyframes myg5 {
+    0%   {top: 0px; left: 0px;    background:url(../Otel/image/h1.jpg ) no-repeat ;background-size: cover; }
+    25%   {top: 0px; left: 0px;   background:url(../Otel/image/h2.jpg) no-repeat ;background-size: cover;}
+    50%   {top: 0px; left: 0px;   background:url(../Otel/image/h3.jpg) no-repeat ;background-size: cover;}
+    75%   {top: 0px; left: 0px;   background:url(../Otel/image/h4.jpg) no-repeat ;background-size: cover;}
+    100%   {top: 0px; left: 0px;  background:url(../Otel/image/h5.jpg) no-repeat ;background-size: cover;}
+}
+
+.gizlik p {
+    background-color: #fff;
+    margin: 3px;
+    margin-top: 5px;
+}
